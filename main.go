@@ -1,7 +1,12 @@
 package main
 
-import "fmt" 
+import (
+	"fmt"
+	"mylearning/myutil"
+)
 
-func main(){
+func main() {
 	fmt.Println("My name is Dixita")
+
+	myutil.PrintMessage("Hello everyone")
 }
